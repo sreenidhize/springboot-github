@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USER }}/srinidhi2020:latest
+          tags: ${{ secrets.DOCKER_USER }}/docker image:latest
