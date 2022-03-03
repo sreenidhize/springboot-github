@@ -1,6 +1,6 @@
 FROM openjdk
-ADD .dockerignore /usr
+ADD target/HelloWorld-0.0.1-SNAPSHOT.jar /usr
 WORKDIR /usr
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "HelloWorld-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "HelloWorld-0.0.1-SNAPSHOT.jarls"]
 
